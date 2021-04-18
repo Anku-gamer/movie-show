@@ -7,7 +7,7 @@ import { faFileAlt } from '@fortawesome/free-regular-svg-icons'
 import { UserContext } from '../../../App';
 
 const Sidebar = () => {
-    const [loggedInUser, setLoggedInUser] = useContext(UserContext);
+    const [loggedInUser] = useContext(UserContext);
     const [isAdmin, setIsAdmin] = useState(false);
     useEffect(() => {
         fetch('https://aqueous-shelf-09145.herokuapp.com/isAdmin', {

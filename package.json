@@ -54,9 +54,6 @@
     "url": "git+https://github.com/Porgramming-Hero-web-course/complete-website-client-Anku-gamer.git"
   },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Porgramming-Hero-web-course/complete-website-client-Anku-gamer/issues"
-  },
-  "homepage": "https://github.com/Porgramming-Hero-web-course/complete-website-client-Anku-gamer#readme"
+  "license": "ISC"
+
 }
