@@ -1,0 +1,21 @@
+.footer-area{
+    background-image: url(../../../images/foot.jpg);
+    background-size: contain;
+}
+
+.footer-area li{
+    padding-bottom: 10px;
+}
+
+.social-media .icon{
+    height: 40px;
+    width: 40px;
+    color: #e8463a;
+    border-radius: 50%;
+    border: 1px solid #f6f7f7;
+    padding: 10px;
+}
+.social-media .active-icon{
+    background-color: #e21212 ;
+    color:white;
+}

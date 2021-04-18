@@ -1,0 +1,6 @@
+.book-container {
+    height:800px;
+    position:relative;
+    background-image: url('../../../images/hbg.jpg');
+    background-size: cover;
+}
