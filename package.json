@@ -14,7 +14,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.21.1",
-    "firebase": "^7.23.0",
+    "firebase": "^8.4.1",
     "jwt-decode": "^3.1.2",
     "react": "^16.13.1",
     "react-calendar": "^3.1.0",
@@ -45,5 +45,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This is the first time, i actually built a full website. Though this was not fullfilled , i tried my best to do this. This website is mainly a cineplex based website. There is nothing new about the design and I didn't add the payment method as i have no time to do it. But in future , i will add it for sure. \r This server is hosted on my website.",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Porgramming-Hero-web-course/complete-website-client-Anku-gamer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Porgramming-Hero-web-course/complete-website-client-Anku-gamer/issues"
+  },
+  "homepage": "https://github.com/Porgramming-Hero-web-course/complete-website-client-Anku-gamer#readme"
 }
