@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import * as firebase from "firebase/app";
+import firebase from "firebase/app";
 import "firebase/auth";
 import firebaseConfig from './firebase.config';
 import { UserContext } from '../../../App';

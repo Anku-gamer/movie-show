@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "final-app-f1e76",
+    "build": "final-app-f1e76",
+    "default": "final-app-f1e76"
   }
 }

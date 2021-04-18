@@ -12,7 +12,7 @@ const AddAdmin = () => {
         setInfo(newInfo);
     }
     const handleSubmit = () => {
-        const url = `http://localhost:5000/addAdmin`;
+        const url = `https://aqueous-shelf-09145.herokuapp.com/addAdmin`;
         fetch(url, {
             method: 'POST',
             headers: {
@@ -23,7 +23,7 @@ const AddAdmin = () => {
             .then(res => alert('Service Uploaded'))
     }
 
-    const api = "http://localhost:5000/allAdmin";
+    const api = "https://aqueous-shelf-09145.herokuapp.com/allAdmin";
     useEffect(() => {
         fetch(api)
             .then(res => res.json())

@@ -20,7 +20,7 @@ const Dashboard = () => {
     }
 
     useEffect(() => {
-        fetch('http://localhost:5000/bookingsByDate', {
+        fetch('https://aqueous-shelf-09145.herokuapp.com/bookingsByDate', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify({ date: selectedDate, email: loggedInUser.email })

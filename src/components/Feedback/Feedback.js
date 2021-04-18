@@ -15,7 +15,7 @@ const Feedback = () => {
         review:data.review,
         imageURL: imageURL
       };
-      const url = `http://localhost:5000/addReview`;
+      const url = `https://aqueous-shelf-09145.herokuapp.com/addReview`;
     
       fetch(url, {
         method: 'POST', 
